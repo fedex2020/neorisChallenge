@@ -7,9 +7,9 @@
     "install-client": "cd client && npm install --verbose",
     "install-server": "cd server && npm install --verbose",
     "install-app": "npm install --verbose && npm run install-client && npm run install-server",
-    "run-client": "cd client && npm run start",
-    "run-server": "cd server && npm run start",
-    "app": "npm-run-all --parallel run-client run-server"
+    "start-client": "cd client && npm run start",
+    "start-server": "cd server && npm run start",
+    "app": "npm-run-all --parallel start-client start-server"
   },
   "repository": {
     "type": "git",
